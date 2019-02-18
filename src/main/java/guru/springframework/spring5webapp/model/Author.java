@@ -5,12 +5,13 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by jt on 5/16/17.
+ * Created on 5/16/17.
  */
 @Entity
 public class Author {
 
-    @Id
+	//This is just to check commit
+	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String firstName;
