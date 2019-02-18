@@ -10,7 +10,6 @@ import java.util.Set;
 @Entity
 public class Author {
 
-	//This is just to check commit
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
